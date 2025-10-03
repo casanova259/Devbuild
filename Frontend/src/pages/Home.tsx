@@ -8,6 +8,7 @@ import heroImage from "@/assets/hero-alumni.jpg";
 import featureDirectory from "@/assets/feature-directory.png";
 import featureEvents from "@/assets/feature-events.png";
 import featureJobs from "@/assets/feature-jobs.png";
+import AIChatbotWidget from "@/components/AIChatbotWidget";
 
 const Home = () => {
   return (
