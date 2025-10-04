@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![ReUnion Logo](https://via.placeholder.com/150x150?text=ReUnion)
 
 **A centralized platform connecting alumni, students, and institutions**
 
