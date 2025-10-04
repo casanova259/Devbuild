@@ -125,10 +125,6 @@ ReUnion provides a **centralized, secure, and engaging platform** that enables:
 - Donor recognition
 - Transparent fund utilization reports
 
-### 🌐 **Multilingual Support**
-- Multiple language support for inclusivity
-- Regional content customization
-- Accessible to diverse alumni base
 
 ### 🤖 **AI-Powered Features**
 - Career path recommendations
