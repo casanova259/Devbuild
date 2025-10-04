@@ -1,47 +1,51 @@
-# 🎓 Alumni Management System
+# Team: CodeCrew (TeamID: T-127)
 
-An Alumni Management System built with **Node.js, Express, MongoDB, React, and TypeScript**.  
-This platform helps educational institutions **manage alumni data, events, mentorship, donations, and networking** in one centralized place.
-
----
-
-## 🚀 Features
-
-- 🔐 **Authentication** (JWT-based login & refresh tokens)
-- 👩‍🎓 **Alumni Profiles** (batch, contact, career updates)
-- 📧 **Email Notifications** (SMTP via Gmail)
-- 🗂️ **Centralized Database** (MongoDB / Atlas)
-- 📅 **Event Management** (create, RSVP, reminders)
-- 🤝 **Mentorship & Job Board** (alumni → students)
-- 💳 **Donations & Fundraising** (Stripe integration)
-- ☁️ **Image Uploads** (Cloudinary)
-- 📊 **Admin Dashboard** (analytics, reports)
+## 👥 Members
+- **Manik Sharma (Team Leader)** – Full Stack Engineer  
+- **Vipul** – Frontend Engineer  
+- **Yuvraj Kumar** – Frontend Engineer  
+- **Varun Jasuja** – Frontend Engineer  
+- **Sanju** – Frontend Engineer  
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Problem Statement
+Most educational institutions do not have a reliable or centralized system to manage their alumni data.  
+After graduation, alumni contact details, career updates, and records are often scattered across WhatsApp groups, emails, or lost entirely.  
 
-**Frontend**
-- React + TypeScript
-- Axios
-- TailwindCSS / Material UI
-
-**Backend**
-- Node.js + Express.js
-- MongoDB / MongoDB Atlas
-- JWT Authentication
-- Bcrypt.js (password hashing)
-
-**Others**
-- Nodemailer (emails)
-- Cloudinary (images)
-- Stripe (payments)
+This leads to:
+- Weak alumni–student connections  
+- Missed opportunities for mentorship, internships, and jobs  
+- Difficulties in event management and fundraising  
 
 ---
 
-## ⚙️ Project Setup
+## 💡 Solution – Our Project
+We built **ReUnion – Revolutionising Alumni Engagement**, a centralized platform where institutions can:  
+- Manage alumni data in one secure database  
+- Enable alumni–student mentorship and job postings  
+- Organize and track alumni events  
+- Simplify donations and fundraising  
+- Provide multilingual accessibility for inclusivity  
+- Use AI-driven recommendations for career guidance  
 
-### 1️⃣ Clone Repository
+---
+
+## 🛠 Tech Stack
+**Frontend:** React + Vite + Tailwind CSS  
+**Backend:** Node.js + Express  
+**Database:** MongoDB Atlas  
+**Authentication:** JWT (Access + Refresh Tokens)  
+**Storage:** Cloudinary (for images, event media)  
+**Payments:** Stripe (donations & fundraising)  
+**Emails:** Nodemailer (for invites, notifications)  
+
+---
+
+## 🚀 How to Run
+
+### Backend Setup
 ```bash
-git clone https://github.com/your-username/alumni-management-system.git
-cd alumni-management-system
+cd code/backend
+npm install
+npm run dev
